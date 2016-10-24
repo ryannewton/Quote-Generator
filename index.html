@@ -4,7 +4,18 @@
 </head>
 
 <body>
-	<h1 class="text-center">Random Quote Generator</h1>
-
+	<div class="container col-md-12">
+		<div class="text-center">
+			<h1>Random Quote Generator</h1>
+		</div>
+	</div>
+	<div class="container col-md-4"></div>
+	<div class="container col-md-4">
+		<button class="btn btn-primary" id="quote-button">Generate a quote</button>
+		<div id="quote-text"><p>Blank Quote<p></div>
+		<div id="quote-author"><p>Author</p></div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="api_call.js"></script>
 </body>
 </html>
